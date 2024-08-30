@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
 
-TEST(Test, Simple) {
-  ASSERT_EQ(1, 1);  // Stack []
-}
+#include <sum.hpp>
+
+TEST(Test, Simple) { ASSERT_EQ(Sum(1, 2, 3), 6); }

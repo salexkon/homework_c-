@@ -1,6 +1,5 @@
-
 #include <gtest/gtest.h>
 
-#include "reverse.hpp"
-
-TEST(Reverse, Simple) {}
+TEST(Test, Simple) {
+  ASSERT_EQ(1, 1);  // Stack []
+}
