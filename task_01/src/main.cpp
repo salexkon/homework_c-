@@ -1,6 +1,6 @@
 #include <iostream>
-#include <sum.hpp>
-#include <algorithm>
+#include "med.hpp"
+
 
 int main() { 
     int first_number, second_number, third_number;
